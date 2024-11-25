@@ -29,6 +29,7 @@ header {
 .logo {
   display: block;
   margin: 0 auto 2rem;
+  border-radius: 50%;
 }
 
 nav {
@@ -60,7 +61,7 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+    padding-right: calc(var(--section-gap) / 5);
   }
 
   .logo {
